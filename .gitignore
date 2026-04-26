@@ -1,0 +1,5 @@
+﻿.DS_Store
+lab_report/latex/*.aux
+lab_report/latex/*.log
+lab_report/latex/*.out
+lab_report/latex/*.toc

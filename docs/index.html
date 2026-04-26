@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная 13 - Anime Girls Showcase</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="page-decor decor-left"></div>
+  <div class="page-decor decor-right"></div>
+
+  <header class="hero">
+    <div class="hero__badge">Lab 13 • JavaScript • Anime Theme</div>
+    <h1>Витрина аниме-девочек</h1>
+    <p class="hero__text">
+      Единый проект по JavaScript: переменные, массивы, поиск по строкам, работа с API
+      и подготовка интерфейса к публикации в одной стилизованной лабораторной.
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="card card-console">
+      <div class="section-head">
+        <span class="section-kicker">Урок 1</span>
+        <h2>Клуб фанаток и баланс звёзд</h2>
+      </div>
+      <p class="section-text">
+        Моделирование накопления клубных звёзд для участницы аниме-фандома.
+      </p>
+      <pre id="les1-output" class="console"></pre>
+    </section>
+
+    <section class="card card-console">
+      <div class="section-head">
+        <span class="section-kicker">Урок 2</span>
+        <h2>Чат о вайфу и поиск по сообщениям</h2>
+      </div>
+      <p class="section-text">
+        Переписка фан-клуба с фильтрацией сообщений по ключевому слову.
+      </p>
+      <pre id="les2-output" class="console"></pre>
+    </section>
+
+    <section class="card card-gallery">
+      <div class="section-head">
+        <span class="section-kicker">Урок 3</span>
+        <h2>Каталог аниме-героинь из API</h2>
+      </div>
+      <p id="les3-status" class="status">Загрузка карточек героинь...</p>
+      <div id="les3-cards" class="cards"></div>
+    </section>
+
+    <section class="card card-deploy">
+      <div class="section-head">
+        <span class="section-kicker">Урок 4</span>
+        <h2>Подготовка к публикации</h2>
+      </div>
+      <p class="section-text">
+        Проект организован как Node.js-приложение и готов к запуску на Replit или другом хостинге.
+      </p>
+      <ul id="les4-output" class="deploy-list"></ul>
+    </section>
+  </main>
+
+  <div id="modals-root"></div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

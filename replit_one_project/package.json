@@ -1,0 +1,12 @@
+{
+  "name": "lab13-all-in-one",
+  "version": "1.0.0",
+  "description": "Лабораторная 13: все задания в одном Replit-проекте",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
